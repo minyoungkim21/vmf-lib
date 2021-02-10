@@ -7,8 +7,8 @@ The von Mises-Fisher (vMF) is a well-known density model for directional random 
 ## Features
 
 * vMF density estimation via near-closed-form maximum likelihood estimator (MLE) or Stochastic Gradient Descent (SGD)
-* Mixture of vMFs estimation via Expectation-Maximization (EM) or SGD
-* Numerically stable estimation of vMF normalizer through [mpmath](https://mpmath.org/) Bessel function estimation
+* Estimation of mixture of vMFs via Expectation-Maximization (EM) or SGD
+* Numerically stable estimation of the vMF normalizer through [mpmath](https://mpmath.org/)'s Bessel function estimation
 
 ## Requirements
 
