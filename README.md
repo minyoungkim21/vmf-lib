@@ -34,7 +34,7 @@ We generate samples from a true vMF model, and aim to estimate the true model pa
 
 ### 2) vMF Mixture Estimation
 
-We also generate samples from a true mixture of three vMFs, and aim to estimate the true mixture parameters by either the EM or the SGD estimators. See the demo code in ```mle_for_mix_vmf.py``` for the details. The results are briefly summarized in the following Table 2. As shown, both estimators are equally accurate. 
+We also generate samples from a true mixture of three vMFs, and aim to estimate the true mixture parameters by either the EM or the SGD estimators. See the demo code in ```mle_for_mix_vmf.py``` for the details. The results are briefly summarized in the following Figure 2. As shown, both estimators are equally accurate. 
 
 <p align="center">
   <img align="middle" src="./figs/vmf_mix_results.png" width="700"/>
@@ -42,6 +42,11 @@ We also generate samples from a true mixture of three vMFs, and aim to estimate 
 
 ### 3) Image Clustering Application
 
+We aim to cluster the images in the CIFAR-10 dataset. Our pipeline approach consists of estimating first the unit-hyperspherical latent space by minimizing the reconstruction error in the auto-encoding process, then learning a vMF mixture model in the latent space. See the demo code in ```image_clustering_cifar10.py``` for the details. The results are briefly summarized in the following Table 2. The results indicate that the vMF mixture learning approaches (EM and SGD) significantly outperform the famous k-means algorithm in terms of the two clustering performance metrics, Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI). And both the EM and SGD estimators perform equally well. 
+
+<p align="center">
+  <img align="middle" src="./figs/image_clustering_results.png" width="700"/>
+</p>
 
 
 ## Citation
