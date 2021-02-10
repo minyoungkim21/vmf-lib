@@ -29,7 +29,7 @@ The von Mises-Fisher (vMF) is a well-known density model for directional random 
 We generate samples from a true vMF model, and aim to estimate the true model parameters by either the near-closed-form MLE or the SGD estimators. See the demo code in ```mle_for_vmf.py``` for the details. The results are briefly summarized in the following table. 
 
 <p align="center">
-  <img align="middle" src="./figs/vmf_results.png" width="324"/>
+  <img align="middle" src="./figs/vmf_results.png" width="800"/>
 </p>
 
 
