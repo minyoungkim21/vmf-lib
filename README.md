@@ -4,16 +4,22 @@ The von Mises-Fisher (vMF) is a well-known density model for directional random 
 
 ---
 
+
 ## Features
 
-* vMF density estimation via near-closed-form maximum likelihood estimator (MLE) or Stochastic Gradient Descent (SGD)
+* vMF density estimation via near-closed-form Maximum Likelihood Estimator (MLE) or Stochastic Gradient Descent (SGD)
 * Estimation of mixture of vMFs via Expectation-Maximization (EM) or SGD
 * Numerically stable estimation of the vMF normalizer through [mpmath](https://mpmath.org/)'s Bessel function estimation
+* Examples of image clustering application
+
 
 ## Requirements
 
 * Python 3.7
 * PyTorch >= 1.4.0
+* NumPy >= 1.18.1
+* [mpmath](https://mpmath.org/) >= 1.1.0
+* scikit-learn >= 0.23.2 (Required for metric computation in image clustering)
 
 
 <p align="center">
