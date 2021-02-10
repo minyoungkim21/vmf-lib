@@ -26,7 +26,7 @@ The von Mises-Fisher (vMF) is a well-known density model for directional random 
 
 ### 1) vMF Density Estimation
 
-We generate samples from a true vMF model, and aim to estimate the true model parameters by either the near-closed-form full-batch MLE or the SGD estimators. See the demo code in ```mle_for_vmf.py``` for the details. The results are briefly summarized in the following Table 1. As shown, both estimators are equally accurate. 
+We generate samples from a true vMF model, and aim to estimate the true model parameters by either the near-closed-form full-batch MLE or the SGD estimator. See the demo code in ```mle_for_vmf.py``` for the details. The results are briefly summarized in the following Table 1. As shown, both estimators are equally accurate. 
 
 <p align="center">
   <img align="middle" src="./figs/vmf_results.png" width="700"/>
@@ -34,7 +34,7 @@ We generate samples from a true vMF model, and aim to estimate the true model pa
 
 ### 2) vMF Mixture Estimation
 
-We also generate samples from a true mixture of three vMFs, and aim to estimate the true mixture parameters by either the EM or the SGD estimators. See the demo code in ```mle_for_mix_vmf.py``` for the details. The results are briefly summarized in the following Figure 2. As shown, both estimators are equally accurate. 
+We also generate samples from a true mixture of three vMFs, and aim to estimate the true mixture parameters by either the EM or the SGD estimator. See the demo code in ```mle_for_mix_vmf.py``` for the details. The results are briefly summarized in the following Figure 2. As shown, both estimators are equally accurate. 
 
 <p align="center">
   <img align="middle" src="./figs/vmf_mix_results.png" width="700"/>
