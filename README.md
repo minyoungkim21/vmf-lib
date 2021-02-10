@@ -22,6 +22,31 @@ The von Mises-Fisher (vMF) is a well-known density model for directional random 
 * scikit-learn >= 0.23.2 (Required for metric computation in image clustering)
 
 
+## Usage examples
+
+### vMF Density Estimation
+
+We generate samples from a true vMF model, and aim to estimate the true model parameters by either the near-closed-form MLE or the SGD estimators. See the demo code in ```mle_for_vmf.py``` for the details. The results are briefly summarized in the following table. 
+
 <p align="center">
-  <img align="middle" src="./figs/thumbnail.png"/>
+  <img align="middle" src="./figs/vmf_results.png"/>
 </p>
+
+
+
+
+## Citation
+If you found this library useful in your research, please cite:
+```
+@article{mkim2021vmf,
+  title={On PyTorch Implementation of Density Estimators for von Mises-Fisher and Its Mixture},
+  author={Kim, Minyoung},
+  journal={arxiv...},
+  year={2021}
+}
+```
+
+
+
+
+
